@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vertical Timeline</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100i,300,400,500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Allura" rel="stylesheet">
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="./main-css.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<header>
+  <div class="container text-center">
+    <h1>E-PORTFOLIO</h1>
+    <p>DIANA SVENSSON</p>
+  </div>
+</header>
+
+<img src="https://media.discordapp.net/attachments/1066003931349655552/1068539222530719874/4_3_rounded.png?width=676&height=676" id="top-image">
+ 
+<div class="information">
+  <div class="navbar">
+    <div class="navbar-column">
+      <p><i class="fas fa-map-marker-alt"></i>Address</p>
+      <p><a href="https://www.google.se/maps/place/Franz%C3%A9ngatan+29,+4tr,+112+16+Stockholm/@59.3395674,18.0068521,17z/data=!3m1!4b1!4m5!3m4!1s0x465f9d8661244b25:0x8e57efd6bd3abc28!8m2!3d59.3395674!4d18.0090408" target="_blank">European Trading Agency AB - 11216, Stockholm</a></p>
+    </div>
+    <div class="navbar-column">
+      <p><i class="fas fa-phone"></i> Phone Number</p>
+      <p><a href="tel:+46732072072">+46732072072</a></p>
+    </div>
+    <div class="navbar-column">
+      <p><i class="fa fa fa-envelope"></i> Email</p>
+      <p class="emai-info"><a href="mailto:mail@dianasvensson.com">mail@dianasvensson.com</a></p>
+    </div>
+  </div>
+</div>
+
+<div class="menu-div">
+  <svg class="ham hamRotate ham1" viewBox="0 0 100 100" width="80" onclick="this.classList.toggle('active'); activateThing();">
+    <path class="line top" d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40"/>
+    <path class="line middle" d="m 30,50 h 40"/>
+    <path class="line bottom" d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40"/>
+  </svg>
+
+  <div class="menu-div-overlay">
+    <h1>Hello world!</h1>
+  </div>
+</div>
+
+<script>
+  function activateThing() {
+    document.getElementsByClassName('menu-div-overlay')[0].classList.toggle('active');
+  }
+</script>
+
+<body>
+  <div class="conteudo">
+      <div class="carrosel">
+          <div class="caixa__card cc__1">PR <br>& <br>Journalism</div>
+          <div class="caixa__card cc__2">Digital <br>Marketing</div>
+          <div class="caixa__card cc__3">Customer <br>Experience</div>
+          <div class="caixa__card cc__4">Business <br>Analysis</div>
+          <div class="caixa__card cc__5">Copywriting</div>
+          <div class="caixa__card cc__6">Mixed Media</div>
+          <div class="caixa__card cc__7">Career <br>Coaching</div>
+          <div class="caixa__card cc__8">Branding</div>
+          
+          </div>
+      </div>
+  </div>
+</body>
+
+<section class="timeline">
+  <div class="container">
+    <div class="timeline-item">
+
+      <div class="timeline-img"></div>
+
+      <div class="timeline-content js--fadeInLeft">
+        <div class="date">2012</div>
+        <h2>The Journalist</h2>
+        <blockquote>
+           
+            Studying at Northern Virginia University and landing an internship at
+            <span class="word" class="sentences">Capitol Hill</span>
+            where i was asked to cover
+            <span class="word" class="sentences">Barack Obama’s and Joe Biden’s</span>
+            press conferences.
+
+        </blockquote>
+        <a class="bnt-more" href="../test/index.html">More</a>
+      </div>
+    </div> 
+
+    <div class="timeline-item">
+
+      <div class="timeline-img"></div>
+
+      <div class="timeline-content js--fadeInRight">
+        <div class="date">2013</div>
+        <h2>The Student</h2>
+        <blockquote>
+
+            I returned back home to Sweden, freshly graduated in
+            <span class="word">Advanced PR & Journalism</span>
+            from the US
+        
+        </blockquote>
+        <a class="bnt-more" href="javascript:void(0)">More</a>
+      </div>
+    </div>  
+
+    <div class="timeline-item">
+
+      <div class="timeline-img"></div>
+
+    <div class="timeline-content js--fadeInLeft">
+      <div class="date">2014</div>
+      <h2>The mother</h2>
+      <blockquote>
+
+          My most important job starts –
+          <span class="word">I become a mother.</span>
+        
+      </blockquote>
+      <a class="bnt-more" href="javascript:void(0)">More</a>
+     </div>
+   </div> 
+
+    <div class="timeline-item">
+
+      <div class="timeline-img"></div>
+
+      <div class="timeline-content js--fadeInRight">
+        <div class="date">2015</div>
+        <h2>The Entrepreneur</h2>
+        <blockquote>
+          
+            I started getting a lot of requests from friends & family to help them with their resumées,
+            <span class="word">copywriting,</span>
+            giving them career advice, creating logotypes and so on.. so the idea of becoming self-employed within the 
+            <span class="word">media field</span>
+            was born.
+        
+        </blockquote>
+        <a class="bnt-more" href="javascript:void(0)">More</a>
+      </div>
+    </div>  
+
+    <div class="timeline-item">
+
+      <div class="timeline-img"></div>
+
+      <div class="timeline-content js--fadeInLeft">
+        <div class="date">2016</div>
+        <h2>The matchmaker</h2>
+        <blockquote>
+          
+            I registered my company and started exploring how to reach the markets of interest. I also started to travel and participate in a lot of events where
+            <span class="word">I met suppliers</span>
+            for all kinds of items/fabrics 
+            <span class="word">from all over the world.</span>
+            I collect all the data I can and create them into a giant CRM in which
+            <span class="word">I use for my clients</span>
+            when they need garments, accessories, shoes, lamps, gadgets, fabrics, furniture… pretty much everything they would need to start an online business from Scandinavia. 
+            Simultaneously, I started my two apparel brands; WHTE STHLM (pronounced White Stockholm) and PeekAPoo.
+        
+        </blockquote>
+        <a class="bnt-more" href="javascript:void(0)">More</a>
+      </div>
+    </div> 
+
+    <div class="timeline-item">
+
+      <div class="timeline-img"></div>
+
+      <div class="timeline-content js--fadeInRight">
+        <div class="date">2017</div>
+        <h2>The Marketing executive</h2>
+        <blockquote>
+          
+            I help well-known brands and companies market themselves through
+            <span class="word">strategic PR,</span>
+            marketing & 
+            <span class="word">storytelling</span>
+            while helping private clients to start their start-up journeys and become successful names in the industry. All while signing up for the role of a Nordic Marketing Executive for the world-leading fine art company, Colart International. 
+            In August, I launched my very first Premium Cashmere collection in collaboration with ICE BAR Stockholm by ICE HOTEL, and it was a major success during the trading show, Fashion District in Stockholm.
+          
+        </blockquote>
+        <a class="bnt-more" href="javascript:void(0)">More</a>
+      </div>
+    </div> 
+
+    <div class="timeline-item">
+
+      <div class="timeline-img"></div>
+
+      <div class="timeline-content js--fadeInLeft">
+        <div class="date">2018</div>
+        <h2>The Designer</h2>
+        <blockquote>
+                    
+           My brands can be found in various malls & shops around Sweden, and the ICEBAR collection was
+            <span class="word">sold out</span>
+            before it even hit the shelves. My clientele grew bigger than ever, and I also secured a spot in the world’s largest early-stage investor hub, 
+            <span class="word">Antler.</span>
+            Nothing could stop me by this point, except for… The pandemic.
+        
+        </blockquote>
+        <a class="bnt-more" href="javascript:void(0)">More</a>
+      </div>
+    </div> 
+
+    <div class="timeline-item">
+
+      <div class="timeline-img"></div>
+      <div class="timeline-content js--fadeInRight">
+
+        <div class="date">2019</div>
+        <h2>The Digital Marketer</h2>
+        <blockquote>
+                    
+           My clients dropped like flies because of the pandemic, the retailers and stores shut down, my suppliers closed the factories and stopped producing all over the world, and the
+           <span class="word">disaster was a fact.</span>
+           Like the hard-headed person i am,
+           <span class="word">I refused to stand still just because the world was.</span>
+           So, I applied to enroll in the one thing that was out of my element when graduating in 2013 –
+           <span class="word">Digital Marketing.</span>
+       
+       </blockquote>
+        <a class="bnt-more" href="javascript:void(0)">More</a>
+      </div>
+    </div>  
+
+    <div class="timeline-item">
+
+      <div class="timeline-img"></div>
+      <div class="timeline-content js--fadeInLeft">
+        
+        <div class="date">2020</div>
+        <h2>The Head of Marketing & PR</h2>
+        <blockquote>
+                    
+           Out of 9000 applicants, I was one of the lucky students to be accepted to the well-reputed IHM Business School program –
+           <span class="word">Digital Marketing Specialist.</span>
+           During my first internship through school, I ended up at the world-leading global media agency; Omnicom Media Group – and landed a position as 
+           <span class="word">Head of Marketing & PR</span>
+           for their latest Performance Agency – Resolution Media.
+       
+       </blockquote>
+        <a class="bnt-more" href="javascript:void(0)">More</a>
+      </div>
+    </div> 
+
+    <div class="timeline-item">
+
+      <div class="timeline-img"></div>
+      <div class="timeline-content js--fadeInRight">
+        <div class="date">2021-2023</div>
+        <h2>The Unstoppable</h2>
+        <blockquote>
+                    
+           While working at Resolution, I quickly
+           <span class="word">fell in love</span>
+           with the 
+           <span class="word">digital media landscape</span>
+           and how everything was connected, so I decided to combine my experience in traditional marketing & PR and the digital world I graduate from – and become a human full-service agency with a new internship at Sweden’s first and largest media house –
+           <span class="word">Bonnier News.</span>
+       
+       </blockquote>
+        <a class="bnt-more" href="javascript:void(0)">More</a>
+      </div>
+    </div>  
+
+
+
+  </div>
+</section>
+<!-- partial -->
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+<script src='https://cdn.jsdelivr.net/scrollreveal.js/3.3.1/scrollreveal.min.js'></script><script  src="./main-script.js"></script>
+
+</body>
+</html>
